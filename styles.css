@@ -1,83 +1,116 @@
 /* Write your CSS here! */
 
 
-
-html { 
-    background: url(https://cdnb.artstation.com/p/assets/images/images/021/264/427/large/narges-jafari-japanesegarden-nobug-nargesart.jpg?1571023417) no-repeat center center fixed; 
-    -webkit-background-size: cover;
+body {
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	background: url(https://cdnb.artstation.com/p/assets/images/images/021/264/427/large/narges-jafari-japanesegarden-nobug-nargesart.jpg?1571023417) no-repeat center center fixed;
+	font-size: 62.5%;
+	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
-h1 {
-    color: white;
-    text-align: center;
-    font-family: "Segoe Print";
-  }
-  
-h3{
-    color: white;
-    text-align: center;
-    font-family: "Segoe Print";
-    font-size: 25px;
-  }
-p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    color: white;
-  }
-  
-div {
-    background-color: #e2b2e1;
-    width: 90%;
-    padding: 50px;
-    margin: 20px;
-    position: relative;
-  }
-
-img {
-    max-width: 100%;
-    max-height: 100%;
+header,
+main {
+	background-color: #e2b2e1;
+	font-size: 1.6em;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-footer{
-    color: white;
-    text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
+header {
+	padding: 1.875em 0;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #c75299;
-    top: 0;
-    width: 100%;
-  }
-  
-  li {
-    float: left;
-    }
-  
-  li a {
-    display: block;
-    color: white;
+header h1 {
+	text-align: center;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	color: purple;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-  }
+    font-family: "Segoe Print";
+}
+
+main h2 {
+	padding: 0.625em 0 0.625em 0.625em;
+}
+
+section {
+	margin: 1.875em 0;
+}
+
+section:first-child {
+	margin-top: 0;
+}
+
+section:last-child {
+	margin-bottom: 0;
+}
+
+#nav {
+	width:100%;
+	margin:0 auto;
+	list-style:none;
+	}
+
+	#nav li {
+	float:left;
+	}
+
+	#nav a {
+	display:block;
+	text-align:center;
+	width:150px; /* fixed width */
+	text-decoration:none; 
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: purple;
+	}
   
   /* Change the link color to #66277c on hover */
-  li a:hover {
-    background-color: #66277c;
+  nav a:hover {
+    background-color: rgb(192, 152, 243);
+	color: white;
   }
+p {
+	padding: 1.25em;
+	color: purple;
+    text-align: center;
+}
 
-  ol{
-    color: white;
+ol{
+    color: purple;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-  }
+    }
+
+
+footer {
+	text-align: left;
+	font-size: medium;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer p {
+	color: white;
+	text-align: left;
+	}
+
+img {
+	width: 100%;
+	max-width: 100%;
+}
+
+@media screen and (max-width: 680px) {
+	nav ul li {
+		margin: 1em 0;
+		display: block;
+		font-size: 1em;
+	}
+	body {
+		font-size: 50%;
+	}
+}
