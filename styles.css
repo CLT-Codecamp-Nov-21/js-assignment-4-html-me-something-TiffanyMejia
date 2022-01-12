@@ -4,7 +4,7 @@
 body {
 	width: 100%;
 	max-width: 1024px;
-	margin: 0 auto;
+	margin: 8px;
 	background: url(https://cdnb.artstation.com/p/assets/images/images/021/264/427/large/narges-jafari-japanesegarden-nobug-nargesart.jpg?1571023417) no-repeat center center fixed;
 	font-size: 62.5%;
 	-webkit-background-size: cover;
@@ -28,6 +28,7 @@ header h1 {
 	text-align: center;
 }
 
+
 h1, h2, h3 {
 	margin: 0;
 	color: purple;
@@ -37,6 +38,10 @@ h1, h2, h3 {
 
 main h2 {
 	padding: 0.625em 0 0.625em 0.625em;
+}
+
+.mainHeading {
+	color: red;
 }
 
 section {
@@ -79,6 +84,11 @@ p {
 	padding: 1.25em;
 	color: purple;
     text-align: center;
+}
+
+.funParagraph  {
+	color: green
+
 }
 
 ol{
