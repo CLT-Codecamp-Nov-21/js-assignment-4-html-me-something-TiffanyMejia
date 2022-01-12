@@ -1,1 +1,126 @@
 /* Write your CSS here! */
+
+
+body {
+	width: 100%;
+	max-width: 1024px;
+	margin: 8px;
+	background: url(https://cdnb.artstation.com/p/assets/images/images/021/264/427/large/narges-jafari-japanesegarden-nobug-nargesart.jpg?1571023417) no-repeat center center fixed;
+	font-size: 62.5%;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header,
+main {
+	background-color: #e2b2e1;
+	font-size: 1.6em;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+	padding: 1.875em 0;
+}
+
+header h1 {
+	text-align: center;
+}
+
+
+h1, h2, h3 {
+	margin: 0;
+	color: purple;
+    text-align: center;
+    font-family: "Segoe Print";
+}
+
+main h2 {
+	padding: 0.625em 0 0.625em 0.625em;
+}
+
+.mainHeading {
+	color: red;
+}
+
+section {
+	margin: 1.875em 0;
+}
+
+section:first-child {
+	margin-top: 0;
+}
+
+section:last-child {
+	margin-bottom: 0;
+}
+
+#nav {
+	width:100%;
+	margin:0 auto;
+	list-style:none;
+	}
+
+	#nav li {
+	float:left;
+	}
+
+	#nav a {
+	display:block;
+	text-align:center;
+	width:150px; /* fixed width */
+	text-decoration:none; 
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: purple;
+	}
+  
+  /* Change the link color to #66277c on hover */
+  nav a:hover {
+    background-color: rgb(192, 152, 243);
+	color: white;
+  }
+p {
+	padding: 1.25em;
+	color: purple;
+    text-align: center;
+}
+
+.funParagraph  {
+	color: green
+
+}
+
+ol{
+    color: purple;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+footer {
+	text-align: left;
+	font-size: medium;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer p {
+	color: white;
+	text-align: left;
+	}
+
+img {
+	width: 100%;
+	max-width: 100%;
+}
+
+@media screen and (max-width: 680px) {
+	nav ul li {
+		margin: 1em 0;
+		display: block;
+		font-size: 1em;
+	}
+	body {
+		font-size: 50%;
+	}
+}
